@@ -2,35 +2,50 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TROLEI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O Começo do Enigma</title>
   <style>
     body {
       margin: 0;
-      height: 100vh;
+      min-height: 200vh; /* garantir rolagem */
       background-color: #000;
       color: #fff;
       font-family: Arial, sans-serif;
       display: flex;
-      justify-content: center;
-      align-items: center;
       flex-direction: column;
-    }
-    img {
-      width: 256px;
-      height: 256px;
-      margin-bottom: 20px;
+      justify-content: flex-start;
+      align-items: center;
+      text-align: center;
+      padding-top: 20vh;
     }
     h1 {
       font-size: 48px;
       color: red;
       text-shadow: 2px 2px 8px #ff0;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
+    .hidden-message {
+      margin-top: 150vh;
+      color: transparent;
+      font-size: 12px;
+      text-align: center;
+      user-select: text; /* garantir que dá pra selecionar no celular */
     }
   </style>
 </head>
 <body>
-  <img src="mapperoso07-1.png" alt="Imagem Trolei">
-  <h1>TROLEI, SEUS BURROS. DESCUBRAM QUEM DO SERVIDOR ERA
-(Enigma no site em breve...)..</h1>
+  <h1>Quem será o Trollador?</h1>
+  <p>Essa história não é tão simples quanto parece...</p>
+
+  <!-- Primeira pista: As iniciais do culpado são "D.S." -->
+
+  <div class="hidden-message">
+    Próxima atualização em breve... | Tire print se você achou e mande no servidor
+  </div>
+
 </body>
 </html>
